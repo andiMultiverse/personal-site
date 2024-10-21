@@ -1,8 +1,46 @@
+@font-face {
+    font-family: 'CothamSans'; /* Name you want to use for the font */
+    src: url('fonts/CothamSans.otf') format('opentype'); /* Relative path to your .otf file */
+    font-weight: normal; /* Adjust as needed */
+    font-style: normal; /* Adjust as needed */
+}
+
+body {
+    font-family: 'CothamSans', sans-serif; /* Applying the custom font */
+}
 .coding-images {
     width: 100vh; 
     height: auto; 
-    border: 3px, solid greenyellow;
+    border: 3px, dashed greenyellow;
     padding: 1vh;
     margin-bottom: 10vh;
     margin-top: 3vh;
 }
+
+
+.miffy-button {
+    background-color: #f3233b; 
+    border: 3px dashed rgb(255, 139, 236);
+    color: #ffffff;     
+    border-radius: 2px; 
+    padding: 8px 14px; 
+
+    font-size: 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.miffy-button:hover {
+    background-color: #e9f323; /* Change background to yellow on hover */
+    color: #f7f8f8; /* Change text color to soft white */
+    border: 3px dashed rgb(31, 221, 31);
+}
+
+h3 {
+    color: black;
+    
+
+}
+
+
+
