@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'CothamSans'; /* Name you want to use for the font */
-    src: url('fonts/CothamSans.otf') format('opentype'); /* Relative path to your .otf file */
-    font-weight: normal; /* Adjust as needed */
-    font-style: normal; /* Adjust as needed */
+    font-family: 'CothamSans'; 
+    src: url('fonts/CothamSans.otf') format('opentype'); 
+    font-weight: normal; 
+    font-style: normal; 
 }
 
 body {
-    font-family: 'CothamSans', sans-serif; /* Applying the custom font */
+    font-family: 'CothamSans', sans-serif; 
 }
 .coding-images {
     width: 100vh; 
@@ -31,8 +31,8 @@ body {
 }
 
 .miffy-button:hover {
-    background-color: #e9f323; /* Change background to yellow on hover */
-    color: #f7f8f8; /* Change text color to soft white */
+    background-color: #e9f323;
+    color: #f7f8f8; 
     border: 3px dashed rgb(31, 221, 31);
 }
 
@@ -41,6 +41,28 @@ h3 {
     
 
 }
+
+#dog {
+    width: 10vh; 
+    height: auto; 
+
+    animation: rotate 4s linear infinite;
+    margin-bottom: 1rem;
+    transform: scale(0.5);
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* .index-nav {
+
+  } */
 
 
 
