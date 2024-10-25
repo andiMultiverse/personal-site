@@ -4,10 +4,19 @@
     font-weight: normal; 
     font-style: normal; 
 }
-
+/*<span class="bullet-point">*</span> Linkedin
+<span class="bullet-point">*</span> Github */
 body {
     font-family: 'CothamSans', sans-serif; 
+   
 }
+
+p a {
+    font-weight: bolder; 
+    color: black;
+
+}
+
 .coding-images {
     width: 100vh; 
     height: auto; 
@@ -17,15 +26,46 @@ body {
     margin-top: 3vh;
 }
 
+.bio {
+    font-size: 2.5vh;
+}
+
+.bio li {
+    list-style-type: none;
+}
+
+.links a {
+    color: #f38f15;        
+    text-decoration: none; 
+}
+
+#name {
+    color: rgb(45, 45, 221);
+}
+
+.bullet-point {
+    color: #e9f323;
+    font-size: 3vh;
+    text-shadow:2px 2px 4px rgb(242, 88, 88);
+}
+
+.find-me {
+    color:rgb(242, 88, 88);
+    font-weight:bolder;
+}
 
 .miffy-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
     background-color: #f3233b; 
     border: 3px dashed rgb(255, 139, 236);
     color: #ffffff;     
     border-radius: 2px; 
-    padding: 8px 14px; 
-
-    font-size: 20px; 
+    padding: 10px 24px; 
+    
+    font-size: 25px; 
     cursor: pointer; 
     transition: background-color 0.3s, color 0.3s; 
 }
@@ -36,6 +76,8 @@ body {
     border: 3px dashed rgb(31, 221, 31);
 }
 
+
+
 h3 {
     color: black;
     
@@ -43,11 +85,11 @@ h3 {
 }
 
 #dog {
-    width: 10vh; 
+    width: 34vh; 
     height: auto; 
 
-    animation: rotate 4s linear infinite;
-    margin-bottom: 1rem;
+    animation: rotate 5s linear infinite;
+    margin-top: -4rem;
     transform: scale(0.5);
   }
   
@@ -60,9 +102,32 @@ h3 {
     }
   }
   
-  /* .index-nav {
+.brand-logo img {
+    width: 7vh;
+    height: auto;
+}
 
-  } */
 
 
+nav {
+    background-color: #ffffff;
+    box-sizing: none;
+    -webkit-box-shadow: none;
+    
 
+}
+
+.nav-wrapper a {
+    color: #000000; 
+    font-size: 2vh;
+}
+
+.nav-wrapper a:hover {
+    color: #ff5722; /* Change text color on hover */
+    background-color: #e9f323;
+   
+}
+
+#dog-nav:hover{
+ background-color: white;
+}
